@@ -6,8 +6,8 @@ import { Jumbotron } from "./Jumbotron.jsx";
 const Home = () => {
 	return (
 		<div>
-			<Navbar />
-			<Jumbotron />
+			<Navbar/>
+			<Jumbotron/>
 		</div>
 	);
 };
