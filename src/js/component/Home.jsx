@@ -4,12 +4,12 @@ import { Jumbotron } from "./Jumbotron.jsx";
 
 //create your first component
 const Home = () => {
-	return (
-		<div>
-			<Navbar/>
-			<Jumbotron/>
-		</div>
-	);
+  return (
+    <div>
+      <Navbar />
+      <Jumbotron />
+    </div>
+  );
 };
 
 export default Home;
