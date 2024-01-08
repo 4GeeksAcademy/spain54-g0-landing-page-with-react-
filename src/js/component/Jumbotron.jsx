@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const Jumbotron = () => {
   return (
     <div className="p-5 mb-4 bg-light rounded-3">
@@ -17,3 +18,4 @@ export const Jumbotron = () => {
     </div>
   );
 };
+
