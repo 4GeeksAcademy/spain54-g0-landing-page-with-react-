@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card({properties = [{title:'card-title', subtitle:'card-subtitle',image:'card-link'}]}) {
+export default function Card({properties}) {
   return (
     <div className="container-fluid d-flex justify-content-center">
       { properties.map((props,index)=>(
